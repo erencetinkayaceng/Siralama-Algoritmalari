@@ -11,7 +11,7 @@ public class KabarcikSiralama {
   //Sıralı olmayan dizimiz
   int []sirasizDizi ={5,1,4,2,8};
   
-  //Dizimizi sıralamak için gönderiyoruz KabarcikSiralama metoduna gönderiyoruz
+  //Dizimizi sıralamak için KabarcikSiralama metoduna gönderiyoruz
   KabarcikSiralama(sirasizDizi);
   
   //Sıralı dizimizi yazdıralım
