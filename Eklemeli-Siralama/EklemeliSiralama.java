@@ -29,8 +29,8 @@ public class EklemeliSiralama {
    gecici = dizi[i]; // i. eleman gecici yapıyoruz   
    j = i - 1; //i nin bir eksiğini j ye atıyoruz
    
-   // j sıfırdan büyükse ve dizinin j. elamanı 
-   //geciciden küçük olana kadar kaydırma yap
+   // j sıfırdan büyükse ve
+   //  geçici dizinin j. elamanından küçük olana kadar kaydırma yap
    while (j >= 0 && gecici < dizi[j]) {
     dizi[j + 1] = dizi[j];
     j = j - 1;
